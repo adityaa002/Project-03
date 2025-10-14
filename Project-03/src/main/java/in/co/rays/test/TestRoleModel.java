@@ -24,8 +24,17 @@ public class TestRoleModel {
 
 	}
 
+	public static void TestUpdate() {
+		RoleDTO dto = new RoleDTO();
+		dto.setName("Department");
+		dto.setId(6L);
+		model.update(dto);
+
+	}
+
 	public static void main(String[] args) {
-		TestAdd();
+		//TestAdd();
+		TestUpdate();
 	}
 
 }
