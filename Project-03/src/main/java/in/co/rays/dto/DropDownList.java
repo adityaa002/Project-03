@@ -7,7 +7,7 @@ package in.co.rays.dto;
  * @author Aditya Sharma
  *
  */
-public interface DropDownList {
+public interface DropdownList {
 	public String getKey();
 	public String getValue();
 

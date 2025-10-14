@@ -3,7 +3,7 @@ package in.co.rays.dto;
 import java.io.Serializable;
 import java.sql.Timestamp;
 
-public abstract class BaseDTO implements Serializable, Comparable<BaseDTO>, DropDownList {
+public abstract class BaseDTO implements Serializable, Comparable<BaseDTO>, DropdownList {
 
 	private static final long serialVersionUID = 1L;
 

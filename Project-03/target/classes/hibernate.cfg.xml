@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+    
+    		<!-- Database connection settings -->
+		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/project03</property>
+		<property name="hibernate.connection.password">root</property>
+		<property name="hibernate.connection.username">root</property>
+		
+		<!-- Dialect setting -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+
+		<!-- Schema update setting -->
+		<property name="hbm2ddl.auto">update</property>
+
+		<!-- Show SQL queries in the console -->
+		<property name="show_sql">true</property>
+
+		<!-- Mapping files -->
+		<!-- <mapping resource="in/co/rays/hbm/UserDTO.hbm.xml" /> <mapping resource="in/co/rays/hbm/StudentDTO.hbm.xml" 
+			/> <mapping resource="in/co/rays/hbm/CollegeDTO.hbm.xml" /> <mapping resource="in/co/rays/hbm/CourseDTO.hbm.xml" 
+			/> <mapping resource="in/co/rays/hbm/RoleDTO.hbm.xml" /> <mapping resource="in/co/rays/hbm/MarksheetDTO.hbm.xml" 
+			/> <mapping resource="in/co/rays/hbm/TimetableDTO.hbm.xml" /> <mapping resource="in/co/rays/hbm/FacultyDTO.hbm.xml" 
+			/> <mapping resource="in/co/rays/hbm/SubjectDTO.hbm.xml" /> -->
+
+	<mapping resource="in/co/rays/dto/RoleDTO.hbm.xml" />
+		<!-- 
+		<mapping resource="in/co/rays/dto/UserDTO.hbm.xml" />
+		<mapping resource="in/co/rays/dto/StudentDTO.hbm.xml" />
+		<mapping resource="in/co/rays/dto/CollegeDTO.hbm.xml" />
+		<mapping resource="in/co/rays/dto/CourseDTO.hbm.xml" />
+		<mapping resource="in/co/rays/dto/MarksheetDTO.hbm.xml" />
+		<mapping resource="in/co/rays/dto/TimetableDTO.hbm.xml" />
+		<mapping resource="in/co/rays/dto/FacultyDTO.hbm.xml" />
+		<mapping resource="in/co/rays/dto/SubjectDTO.hbm.xml" />
+		 -->
+		
+		
+	</session-factory>
+</hibernate-configuration>
