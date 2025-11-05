@@ -16,13 +16,13 @@ public class TestRoleModel {
 
 	// public static RoleModelInt model=new RoleModelJDBCImpl;
 	public static void main(String[] args) throws Exception {
-		// addTest();
+		 addTest();
 		// deleteTest();
 		// updateTest();
 		// findByPkTest();
 		// findByNameTest();
 		// searchTest();
-		 listTest();
+		 //listTest();
 	}
 
 	public static void listTest() throws ApplicationException {
