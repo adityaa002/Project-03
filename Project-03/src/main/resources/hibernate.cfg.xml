@@ -22,24 +22,20 @@
 		<property name="show_sql">true</property>
 
 		<!-- Mapping files -->
+
+
 		<!-- <mapping resource="in/co/rays/hbm/UserDTO.hbm.xml" /> <mapping resource="in/co/rays/hbm/StudentDTO.hbm.xml" 
-			/> <mapping resource="in/co/rays/hbm/CollegeDTO.hbm.xml" /> <mapping resource="in/co/rays/hbm/CourseDTO.hbm.xml" 
-			/> <mapping resource="in/co/rays/hbm/RoleDTO.hbm.xml" /> <mapping resource="in/co/rays/hbm/MarksheetDTO.hbm.xml" 
+			/> <mapping resource="in/co/rays/hbm/RoleDTO.hbm.xml" /> <mapping resource="in/co/rays/hbm/CollegeDTO.hbm.xml" 
+			/> <mapping resource="in/co/rays/hbm/CourseDTO.hbm.xml" /> <mapping resource="in/co/rays/hbm/MarksheetDTO.hbm.xml" 
 			/> <mapping resource="in/co/rays/hbm/TimetableDTO.hbm.xml" /> <mapping resource="in/co/rays/hbm/FacultyDTO.hbm.xml" 
 			/> <mapping resource="in/co/rays/hbm/SubjectDTO.hbm.xml" /> -->
 
-	<mapping resource="in/co/rays/dto/RoleDTO.hbm.xml" />
-		<!-- 
-		<mapping resource="in/co/rays/dto/UserDTO.hbm.xml" />
-		<mapping resource="in/co/rays/dto/StudentDTO.hbm.xml" />
-		<mapping resource="in/co/rays/dto/CollegeDTO.hbm.xml" />
-		<mapping resource="in/co/rays/dto/CourseDTO.hbm.xml" />
-		<mapping resource="in/co/rays/dto/MarksheetDTO.hbm.xml" />
-		<mapping resource="in/co/rays/dto/TimetableDTO.hbm.xml" />
-		<mapping resource="in/co/rays/dto/FacultyDTO.hbm.xml" />
-		<mapping resource="in/co/rays/dto/SubjectDTO.hbm.xml" />
-		 -->
-		
-		
+
+		<mapping resource="in/co/rays/dto/RoleDTO.hbm.xml" />
+		<!-- <mapping resource="in/co/rays/dto/UserDTO.hbm.xml" /> <mapping resource="in/co/rays/dto/StudentDTO.hbm.xml" 
+			/> <mapping resource="in/co/rays/dto/CollegeDTO.hbm.xml" /> <mapping resource="in/co/rays/dto/CourseDTO.hbm.xml" 
+			/> <mapping resource="in/co/rays/dto/MarksheetDTO.hbm.xml" /> <mapping resource="in/co/rays/dto/TimetableDTO.hbm.xml" 
+			/> <mapping resource="in/co/rays/dto/FacultyDTO.hbm.xml" /> <mapping resource="in/co/rays/dto/SubjectDTO.hbm.xml" 
+			/> -->
 	</session-factory>
 </hibernate-configuration>
